@@ -12,11 +12,16 @@ class FirstViewController: UIViewController {
 
     @IBOutlet weak var nameTextField: UITextField!
     @IBOutlet weak var nameLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     @IBAction func IdTapButton(_ sender: Any) {
-        nameLabel.text = nameTextField.text;    }
+        nameLabel.text = nameTextField.text;
+    
+    
+        
+    }
 }
