@@ -20,6 +20,8 @@ class FirstViewController: UIViewController {
     }
     @IBAction func IdTapButton(_ sender: Any) {
         nameLabel.text = nameTextField.text;
+        
+        // preparando a tela de carregamento
     
     
         
